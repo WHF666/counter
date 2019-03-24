@@ -1,0 +1,53 @@
+{
+  "pages": [
+    "pages/welcome/welcome",
+    "pages/post/post",
+    "pages/index/index",
+    "pages/beauty/beauty",
+    "pages/account/account",
+    "pages/cosmetic/cosmetic"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black",
+    "navigationStyle": "custom"
+  },
+  "tabBar": {
+    "position": "bottom",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/post/post",
+        "text": "choice1",
+        "iconPath": "image/heart1.jpg",
+        "selectedIconPath": "image/here.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "counter",
+        "iconPath": "image/counter.png",
+        "selectedIconPath": "image/here.png"
+      },
+      {
+        "pagePath":"pages/beauty/beauty",
+        "text":"choice2",
+        "iconPath":"image/pig.png",
+        "selectedIconPath":"image/here.png"
+      },
+      {
+        "pagePath": "pages/account/account",
+        "text": "account",
+        "iconPath": "image/account.png",
+        "selectedIconPath": "image/here.png"
+      },
+      {
+        "pagePath":"pages/cosmetic/cosmetic",
+        "text":"cosmetic",
+        "iconPath":"image/beauty1.png",
+        "selectedIconPath":"image/here.png"
+      }
+    ]
+  }
+}

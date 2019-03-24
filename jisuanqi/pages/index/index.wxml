@@ -1,0 +1,78 @@
+<view>
+    <view class="tr,in,{{isnowrap?'td_ina0':'td_ina1'}}" style="top:5;width:100%;">
+
+        <scroll-view class="td_in，tr,margpad0" id="nameIN" scroll-x="true" scroll-left="{{scroll1}}">
+            <view class="margpad0" bindtap="text_name">
+                <text class="td,margpad0,nowrap" id="text_name">{{text_name}}</text>
+            </view>
+        </scroll-view>
+        <view class="td_btn,center,name,deleaii,margpad0" bindtap="kong">
+            清空</view>
+    </view>
+    <view class="top_in">
+        <van-toast id="van-toast" />
+        <view class="hr"></view>
+        <scroll-view class="textRes" style="width:{{width}}px;height: {{textResheig}}px" scroll-x="true" scroll-y="true">
+            <view wx:for="{{datalongs}}" class="tr" bindtap='setTemText' data-text="{{item[1]}}">
+                <text style='white-space: nowrap'>{{item[0]}}</text>
+                <text>=</text>
+                <text style='white-space: nowrap'>{{item[1]}}</text>
+            </view>
+        </scroll-view>
+        <view class="hr"></view>
+        <van-row>
+            <van-col span="4" class="center,margpad0" bindtap="bottomEnt">
+                <text class="center,number,name,margpad0">计算</text>
+            </van-col>
+            <van-col span="4" class="center,margpad0" bindtap="a_AEnt">
+                <text class="center,a_Aname,name,margpad0">{{a_Aname}}</text>
+            </van-col>
+            <van-col span="4" class="center,margpad0" bindtap="hexad">
+                <text class="center,hexad,name,margpad0">进制</text>
+            </van-col>
+            <van-col span="6" class="center,margpad0" bindtap="dele">
+                <text class="center,del,name,margpad0">X</text>
+            </van-col>
+            <van-col span="6" class="center,margpad0" bindtap="dengyu">
+                <text class="center,result,name,margpad0">=</text>
+            </van-col>
+        </van-row>
+
+        <van-row class="hexad_div" style="display:{{hexad}};">
+            <van-col span="5" class="center,margpad0" bindtap="qian">
+                <text class="hexad1,center,name,margpad0,{{isqian ? 'hexadaii1' : 'hexadaii0'}}">{{qian}}</text>
+            </van-col>
+            <van-col span="5" class="center,margpad0" bindtap="zhaun">
+                <text class="hexad1,center,hexadaii0,name,margpad0">{{zhaun}}</text>
+            </van-col>
+            <van-col span="5" class="center,margpad0" bindtap="hou">
+                <text class="hexad1,center,name,margpad0,{{ishou ? 'hexadaii1' : 'hexadaii0'}}">{{hou}}</text>
+            </van-col>
+            <van-col span="4" class="center,margpad0" bindtap="wei">
+                <text class="hexad2,{{iswei ? 'hexadaii1' : 'hexadaii0'}},center,name,margpad0">{{wei}}</text>
+            </van-col>
+            <van-col span="5" class="center,margpad0" bindtap="go">
+                <text class="hexad2,center,go,name,margpad0">转换</text>
+            </van-col>
+        </van-row>
+        <view class="bottom,margpad0" style="height: {{bottomheig}}px;display:{{bottom}}">
+
+            <van-row>
+                <van-col span="6" wx:for="{{numbers}}" class="center,margpad0" bindtap="numbers_item" data-name="{{item}}" data-index="{{idx}}" wx:for-index="idx">
+                    <view class="margpad0,td_2,td_x,{{item=='ASCII' ? isascii ? 'td4' : 'td2' : numbers_k<0?'td2':idx==numbers_k?'td3':'td2'}}">
+                        <text class="center,margpad0">{{item}}</text>
+                    </view>
+                </van-col>
+            </van-row>
+        </view>
+        <view class="a_A" style="display:{{a_A}};height: {{bottomheig}}px;">
+            <van-row>
+                <van-col span="4" wx:for="{{chars}}" class="center,margpad0" bindtap="a_A_item" data-name="{{item}}" data-index="{{idx}}" wx:for-index="idx">
+                    <view class="td_1,margpad0,td_x,{{a_Acss<0?'td2':idx==a_Acss?'td3':'td2'}}">
+                        <text class="center,margpad0">{{item}}</text>
+                    </view>
+                </van-col>
+            </van-row>
+        </view>
+    </view>
+</view>

@@ -1,0 +1,45 @@
+<!--pages/account/account.wxml-->
+<view class="container">
+
+    <form catchsubmit="formSubmit" >
+      <view class="account-detail"> 
+        <input placeholder="消费账目" name="inputdetail"  type="text" />
+      </view>
+
+      <view class="account-amount"> 
+        <input placeholder="账目数额" name="inputamount" type="digit" />
+      </view>
+      
+      <view class="add-one">
+        <button formType="submit" class='btn5' loading="{{buttonLoading}}"> 记一笔 </button>
+      </view>
+    </form>
+
+    <view  class="account-list-text">
+      <text>账单列表↓</text>
+    </view>
+
+    <view  class="account-list-all-amount">
+      <text>合计:{{accountTotal}}</text>
+    </view>
+    
+    <block wx:for="{{accountData}}" >
+      <view class="account-list">
+        <view class="account-list-detail">
+          {{item.detail}}
+        </view>
+
+        <view class="account-list-amount">
+          {{item.amount}}
+        </view>
+
+        <view class="account-list-del">
+            <button size="mini" class='btn6'  data-index-key="{{index}}"  bindtap="deleteRow" >删除</button>
+        </view>
+
+        </view>
+    </block>
+
+    
+
+</view>

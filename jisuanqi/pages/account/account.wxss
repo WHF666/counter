@@ -1,0 +1,87 @@
+/* pages/account/account.wxss */
+page{
+background: radial-gradient(circle closest-side at 60% 43%, rgb(184,194,190) 26%, rgba(187,0,51,0) 27%), 
+radial-gradient(circle closest-side at 40% 43%, rgb(184,194,190) 26%, rgba(187,0,51,0) 27%), 
+radial-gradient(circle closest-side at 40% 22%, rgb(209,230,225) 45%, rgba(221,51,85,0) 46%), 
+radial-gradient(circle closest-side at 60% 22%, rgb(209,230,225) 45%, rgba(221,51,85,0) 46%), 
+radial-gradient(circle closest-side at 50% 35%, rgb(209,230,225) 30%, rgba(221,51,85,0) 31%), 
+radial-gradient(circle closest-side at 60% 43%, rgb(184,194,190) 26%, rgba(187,0,51,0) 27%) 50px 50px, 
+radial-gradient(circle closest-side at 40% 43%, rgb(184,194,190) 26%, rgba(187,0,51,0) 27%) 50px 50px, 
+radial-gradient(circle closest-side at 40% 22%, rgb(209,230,225) 45%, rgba(221,51,85,0) 46%) 50px 50px, 
+radial-gradient(circle closest-side at 60% 22%, rgb(209,230,225) 45%, rgba(221,51,85,0) 46%) 50px 50px, 
+radial-gradient(circle closest-side at 50% 35%, rgb(209,230,225) 30%, rgba(221,51,85,0) 31%) 50px 50px; background-color:rgb(184,194,190); 
+background-size:100px 100px;
+
+
+}
+.account-detail{
+    height: 100rpx;
+    padding: 0 30rpx;
+}
+
+.account-amount{
+    padding: 0 30rpx;
+}
+
+.add-one{
+    margin-top: 20rpx;
+}
+
+.account-list-text{
+    color:rgb(78, 69, 69);
+    margin:50rpx 0 0 30rpx;
+    font-size: 50rpx;
+    font-weight: bold;
+}
+
+.account-list-all-amount{
+    color:rgb(78, 69, 69);
+    align-self: flex-end;
+    padding-right: 25rpx;
+    font-size: 40rpx;
+    font-weight: bold;
+}
+
+
+.account-list{
+    color:black;
+    margin:28rpx 0 0 30rpx;
+    display: flex;
+    flex-direction: row;
+    background-color:wheat;
+    line-height: 20rpx;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20rpx;
+}
+
+
+.account-list-detail{
+    flex: 1;
+}
+
+
+.account-list-amount{
+    width: 100rpx;
+}
+
+.btn5{
+  width: 90%;
+  margin-top: 20rpx;
+  background-color: rgb(243, 184, 129);
+  color: white;
+  border-radius: 98rpx; 
+}
+
+.btn5::after{
+  border-radius: 98rpx;
+  border: 0;
+}
+.account-list-del{
+  margin-top: 0rpx;
+}
+.btn6{
+  background-color: rgb(202, 94, 94);
+  color: white;
+  border-radius: 20rpx;
+}
