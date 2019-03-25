@@ -1,0 +1,15 @@
+<!--pages/beauty/beauty.wxml-->
+
+
+<view class='zhang'>
+  <image class="z_Img" src = "/image/5.png"></image>
+  <view class="z_word" bindtap="zhangdan">
+    <text class="word_1">月账单</text>
+  </view>
+</view>
+<view class='hua'>
+  <image class="h_Img" src = "/image/post2.png"></image>
+  <view class="h_word" bindtap="huazhuang">
+    <text class="word_2">化妆品单位质量换算</text>
+  </view>
+</view>

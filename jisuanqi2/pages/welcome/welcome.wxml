@@ -1,0 +1,8 @@
+<!--pages/welcome/welcome.wxml-->
+<!--pages/welcome/welcome.wxml-->
+<view class='container'>
+  <image class="user-image" src = "/image/welcome2.png"></image>
+  <view class="moto-container" bindtap='go'>
+    <text class='moto'>开启精致之旅</text>
+  </view>
+</view>

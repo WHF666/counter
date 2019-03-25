@@ -1,0 +1,13 @@
+<!--pages/post/post.wxml-->
+
+<button class='btn1' bindtap='counter'>
+  <image class = 'btnImg' src="/image/1.png"></image>
+  <view>变精致前先学个习</view>
+</button>
+<button class='btn2' bindtap='beauty'>
+  <image class='btnImg' src="/image/2.png"></image>
+  <view>无心学习只想精致</view>
+</button>
+
+
+

@@ -1,0 +1,80 @@
+/* pages/account/account.wxss */
+page{
+background: #E8CBC0; 
+background: -webkit-linear-gradient(to top, rgb(165, 191, 194)  , #E8CBC0);
+background: linear-gradient(to top, rgb(165,191,194), #E8CBC0);
+
+
+
+}
+.account-detail{
+    height: 100rpx;
+    padding: 0 30rpx;
+}
+
+.account-amount{
+    padding: 0 30rpx;
+}
+
+.add-one{
+    margin-top: 20rpx;
+}
+
+.account-list-text{
+    color:rgb(78, 69, 69);
+    margin:50rpx 0 0 30rpx;
+    font-size: 50rpx;
+    font-weight: bold;
+}
+
+.account-list-all-amount{
+    color:rgb(78, 69, 69);
+    align-self: flex-end;
+    padding-right: 25rpx;
+    font-size: 40rpx;
+    font-weight: bold;
+}
+
+
+.account-list{
+    color:black;
+    margin:28rpx 0 0 30rpx;
+    display: flex;
+    flex-direction: row;
+    background-color:wheat;
+    line-height: 20rpx;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20rpx;
+}
+
+
+.account-list-detail{
+    flex: 1;
+}
+
+
+.account-list-amount{
+    width: 100rpx;
+}
+
+.btn5{
+  width: 90%;
+  margin-top: 20rpx;
+  background-color: rgb(206, 168, 154);
+  color: white;
+  border-radius: 98rpx; 
+}
+
+.btn5::after{
+  border-radius: 98rpx;
+  border: 0;
+}
+.account-list-del{
+  margin-top: 0rpx;
+}
+.btn6{
+  background-color: rgb(202, 94, 94);
+  color: white;
+  border-radius: 20rpx;
+}
