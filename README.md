@@ -35,12 +35,12 @@
 本页面共两个选择button。点击后分别进入账单统计功能和化妆品单位价格计算功能。<br>
 实现代码为pages/beauty。<br>
 ### 5. 账单统计页面<br>
-![image](https://github.com/WHF666/-/blob/master/account.jpg)<br>
+![image](https://github.com/WHF666/counter/blob/master/account2.jpg)<br>
 * 分别输入账目名称和消费数额后，点击“记一笔”，该条目将显示在下方。<br>
 * 当某记录输入有误或要进行修改时，可点击该条目右侧的“删除”，再重新填写。<br>
 实现代码为pages/account。<br>
 ### 6. 化妆品单位价格计算页面<br>
-![image](https://github.com/WHF666/-/blob/master/cosmetic.jpg)<br>
+![image](https://github.com/WHF666/counter/blob/master/cosmetic2.jpg)<br>
 分别输入待比较的两种商品的质量（单位要相同）、价格，再选择各自货币单位，输入完成后点击“对比”button，下方将显示比较结果。<br>
 该页面实现代码为pages/cosmetic。<br>
 <br>
