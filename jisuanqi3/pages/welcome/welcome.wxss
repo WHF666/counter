@@ -1,0 +1,31 @@
+/* pages/welcome/welcome.wxss */
+/* pages/welcome/welcome.wxss */
+page{
+background: #e1eec3;  
+background: -webkit-linear-gradient(to top, #fd8082, #e1eec3); 
+background: linear-gradient(to top, #fa8e8f, #e1eec3);
+
+}
+
+.container{
+  display:flex;
+  flex-direction:column;
+}
+.user-image {
+  width: 600rpx;
+  height: 600rpx;
+}
+.moto-container{
+  margin-top: 100rpx;
+  border: 3px solid #FFFFFF;
+  width: 400rpx;
+  height: 90rpx;
+  border-radius: 5px;
+  text-align: center;
+}
+.moto{
+  font-size: 50rpx;
+  font-weight: bold;
+  line-height: 90rpx;
+  color: #FFFFFF;
+}

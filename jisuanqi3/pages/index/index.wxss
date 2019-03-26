@@ -1,0 +1,180 @@
+/* pages/index/index.wxss */
+page{
+  background: rgb(192, 190, 190);
+}
+
+.bottom{
+	bottom: 0px;
+	overflow-y: scroll;
+}
+.td_x--disabled {
+    opacity: 0.5;
+}
+.a_A{
+	bottom: 0px;
+	overflow-y: scroll;
+}
+.nowrap {
+	white-space: nowrap;
+	height: 100%;
+	font-size: 1.25em;
+}
+.hexad_div{
+	height: 3rem;
+}
+.margpad0{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+}
+.textRes {
+    background-color: #eee;
+}
+.none{
+	display:none;
+}
+.inline{
+	display:inline;
+}
+.tr {
+    display: flex;
+    flex-direction: row;
+}
+.hr {
+    border: 1px solid #EBC4D2;
+    height: 0px;
+}
+
+.in {
+    height: 1.5em;
+	position:fixed;
+	top: 60px;
+	background-color: #fff;
+}
+.top_in{
+	top: 6em;
+    bottom:0;
+	overflow-y: auto;
+	overflow-x: hidden;
+	position:fixed;
+
+}
+.deleaii{		/**清空***/
+	font-size: 1em;
+	background: #D696AB;
+}
+.td_in {
+    flex-grow: 4;
+    text-align: left;
+    overflow-x: scroll;
+	overflow-y: hidden;
+	scrollbar-shadow-color: #EBC4D2;
+    width: 85%;
+}
+
+.td_ina0{
+	height: 3rem;
+	background-color: #fff;
+}
+.td_ina1{
+	height: 3rem;
+	background-color: #aaa;
+}
+.td_btn {
+    text-align: center;
+    width: 15%;
+}
+.center{
+    text-align: center;
+}
+.td1{
+	width: 20%;
+}
+.tr .td{
+	height:2em;
+	size: 1.25em;
+}
+.gradient1 {
+	background: rgb(159, 223, 207);
+}
+
+.gradient2 {
+	background-image: linear-gradient(#FF0000, #D00040);
+}
+.td_x{
+	display: inline-block;
+	padding: .3em .5em;
+	border: 1px solid rgba(0, 0, 0, .2);
+	border-radius: .3em;
+	text-align: center;
+	box-shadow: .05em .1em .2em rgba(0, 0, 0, .6) inset;
+	border-color: rgba(0, 0, 0, .3);
+}
+.name {
+	display: inline-block;
+	padding: .3em .5em;
+	border: 1px solid rgba(0, 0, 0, .2);
+	border-radius: .3em;
+	box-shadow: 0 1px white inset;
+}
+.td_1{
+	width: 64%;
+	font-size:1.25em;
+}
+.td_2{
+	width: 75%;
+	font-size:1.25em;
+}
+.td2{
+	background: #EBC4D2;
+}
+.td3{
+	background: #eee;
+}
+.td4{
+	background: rgb(255, 100, 100);
+}
+.hexad1{
+	width: 75%;
+}
+.hexad2{
+	width: 70%;
+}
+.hexadaii0{		/**计算***/
+	background: #E8E8E8;
+}
+.hexadaii1{
+	background: #fafafa;
+}
+.go{		/**=***/
+	width: 75%;
+	height: 100%;
+	background-image: linear-gradient(#fefefe, #dadada);
+}
+
+
+
+
+.number{		/**计算***/
+	width: 70%;
+	background: rgb(170, 218, 206);
+}
+.a_Aname{		/**大写***/
+	width: 70%;
+	background: rgb(170, 218, 206);
+}
+.hexad{			/**进制***/
+	width: 70%;
+	background: rgb(170, 218, 206);
+}
+.del{			/**X***/
+	width: 80%;
+	height: 100%;
+	background: #C4A3B2;
+}
+.result{		/**=***/
+	width: 80%;
+	height: 100%;
+	background: rgb(170, 218, 206);
+}
